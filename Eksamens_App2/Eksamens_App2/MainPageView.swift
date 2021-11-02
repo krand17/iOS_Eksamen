@@ -30,7 +30,7 @@ struct MainPageView: View {
                 Spacer()
                     .frame(height: 10)
                 
-                buttonDesign(label: "Tilføj") {
+                buttonDesign(label: "Tilføj ingredienser") {
                     showDetails.toggle()
                 }
                 
