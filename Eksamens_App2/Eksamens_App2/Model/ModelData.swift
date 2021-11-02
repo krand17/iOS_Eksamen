@@ -20,7 +20,7 @@ struct buttonDesign: View {
             .frame(width: 200.0, height: 40.0)
             .foregroundColor(.white)
             .padding()
-            .background(Color.blue)
+            .background(Color.red)
             .cornerRadius(8)
     }
 }
