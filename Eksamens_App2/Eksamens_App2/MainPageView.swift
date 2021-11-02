@@ -30,9 +30,13 @@ struct MainPageView: View {
                 Spacer()
                     .frame(height: 200)
                 
-                Button("Tilføj Ingrediens") {
+                Button("Tilføj Ingredienser") {
                     showDetails.toggle()
                 }
+                .frame(width: 200.0, height: 40.0)
+                .foregroundColor(.white)
+                .background(.orange)
+                .cornerRadius(8)
                 
                 if showDetails {
                     Text("You should follow me on Twitter: @twostraws")
