@@ -51,6 +51,9 @@
 		BB52AA62272857B5003945F0 /* Eksamens_App2 */ = {
 			isa = PBXGroup;
 			children = (
+				F98D344F273163E80090EAA1 /* View */,
+				F98D344E273163DC0090EAA1 /* ViewModel */,
+				F98D344D273163D40090EAA1 /* Model */,
 				BB52AA63272857B5003945F0 /* Eksamens_App2App.swift */,
 				BB52AA65272857B5003945F0 /* ContentView.swift */,
 				BB52AA67272857B6003945F0 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				BB52AA6A272857B6003945F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F98D344D273163D40090EAA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F98D344E273163DC0090EAA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F98D344F273163E80090EAA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
