@@ -14,6 +14,7 @@ struct buttonDesign {
     
     var body: some View {
         Button(label, action: action)
+            .frame(width: 200.0, height: 40.0)
             .foregroundColor(.blue)
             .padding()
             .background(Color.accentColor)
