@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct buttonDesign {
+struct buttonDesign: View {
     let label: String
     let action: () -> Void
     
