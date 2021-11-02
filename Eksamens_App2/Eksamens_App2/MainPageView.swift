@@ -33,7 +33,6 @@ struct MainPageView: View {
                 buttonDesign(label: "Tilføj") {
                     showDetails.toggle()
                 }
-               // Button("Tilføj Ingredienser", action: showDetails.toggle())
                 
                 if showDetails {
                     Text("You should follow me on Twitter: @twostraws")
