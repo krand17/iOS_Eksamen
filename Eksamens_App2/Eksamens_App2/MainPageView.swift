@@ -35,7 +35,7 @@ struct MainPageView: View {
                 }
                 
                 if showDetails {
-                    Text("WHY ARE YOU GAY?")
+                    Text("good morning!")
                         .font(.largeTitle)
                 }
             }
