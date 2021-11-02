@@ -35,7 +35,7 @@ struct MainPageView: View {
                 }
                 
                 if showDetails {
-                    Text("You should follow me on Twitter: @twostraws")
+                    Text("I'M NOT BLACK!")
                         .font(.largeTitle)
                 }
             }
