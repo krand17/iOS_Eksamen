@@ -28,10 +28,11 @@ struct MainPageView: View {
                     .padding()
                 
                 Spacer()
-                    .frame(height: 200)
+                    .frame(height: 10)
                 
-                buttonDesign(label: "Tilføj Ingredienser", action: showDetails.toggle())
-               // Button("Tilføj Ingredienser", action: showDetails.toggle())
+                buttonDesign(label: "Tilføj ingredienser") {
+                    showDetails.toggle()
+                }
                 
                 if showDetails {
                     Text("You should follow me on Twitter: @twostraws")
