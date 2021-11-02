@@ -6,10 +6,19 @@
 //
 
 import Foundation
-import Swift
+import SwiftUI
 
 struct buttonDesign {
+    let label: String
+    let action: () -> Void
     
+    var body: some View {
+        Button(label, action: action)
+            .foregroundColor(.blue)
+            .padding()
+            .background(Color.accentColor)
+            .cornerRadius(8)
+    }
 }
 
 struct buttonNewView {
