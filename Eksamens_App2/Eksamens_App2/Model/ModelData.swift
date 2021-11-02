@@ -8,16 +8,19 @@
 import Foundation
 import SwiftUI
 
-struct buttonDesign {
+struct buttonDesign: View {
+        
     let label: String
     let action: () -> Void
     
     var body: some View {
-        Button(label, action: action)
+        Button(label, action: {
+            return self.action()
+        })
             .frame(width: 200.0, height: 40.0)
-            .foregroundColor(.blue)
+            .foregroundColor(.white)
             .padding()
-            .background(Color.accentColor)
+            .background(Color.blue)
             .cornerRadius(8)
     }
 }
