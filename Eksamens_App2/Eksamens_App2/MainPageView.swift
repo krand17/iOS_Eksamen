@@ -8,9 +8,38 @@
 import SwiftUI
 
 struct MainPageView: View {
+    @State private var showDetails = false
+    
     var body: some View {
-        Text("Hej Frederik")
-        Text("Hej MIG??")
+        ZStack{
+            VStack() {
+                Text("Velkommen til NoWaste Recipes")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(20)
+                
+                Spacer()
+                    .frame(height: 18.0)
+                
+                Image("ShoppingCart")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding()
+                
+                Spacer()
+                    .frame(height: 200)
+                
+                Button("Tilføj Ingrediens") {
+                    showDetails.toggle()
+                }
+                
+                if showDetails {
+                    Text("You should follow me on Twitter: @twostraws")
+                        .font(.largeTitle)
+                }
+            }
+        }
     }
 }
 
