@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import Swift
+
+struct buttonDesign {
+    
+}
+
+struct buttonNewView {
+    
+}
+
+struct buttonPrevView {
+    
+}
